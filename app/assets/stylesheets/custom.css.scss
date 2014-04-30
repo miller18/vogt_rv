@@ -1,0 +1,112 @@
+//Color Variables
+
+//Blues
+$color-main-blue: #0072bc;
+$color-secondary-blue-dk: #23638d;
+$color-secondary-blue-dk-2: #004a7a;
+$color-secondary-blue-lt: #379cde;
+$color-secondary-blue-lt-2: #64aede;
+
+//Yellow
+$color-secondary-yellow: #FFBC00;
+$color-secondary-yellow-dk: #BF9A30	;
+$color-secondary-yellow-dk-2: #A67A00;
+$color-secondary-yellow-lt: #FFCD40;
+$color-secondary-yellow-lt-2: #FFDA73;
+
+//orange
+$color-secondary-orange: #FF4100;
+$color-secondary-orange-dk: #BF5430;
+$color-secondary-orange-dk-2: #A62a00;
+$color-secondary-orange-lt: #FF7140;
+$color-secondary-orange-lt-2: #FF9773;
+
+//green
+$color-secondary-green: #00C767;
+$color-secondary-green-dk: #25955F;
+$color-secondary-green-dk-2: #008143;
+$color-secondary-green-lt: #39E391;
+$color-secondary-green-lt-2: #66E3A7;
+
+
+$body-bg: $color-main-blue;
+$navbar-inverse-bg: $color-secondary-blue-dk-2;
+
+
+@import "bootstrap";
+@import "bootstrap/theme";
+
+
+
+.bg-main-blue {
+  background: $color-main-blue;
+}
+
+.bg-secondary-blue-dk {
+  background: $color-secondary-blue-dk;
+}
+
+.bg-secondary-blue-dk-2 {
+  background: $color-secondary-blue-dk-2;
+}
+
+.bg-secondary-blue-lt {
+  background: $color-secondary-blue-lt;
+}
+
+.bg-secondary-blue-lt-2 {
+  background: $color-secondary-blue-lt-2;
+}
+
+.color-secondary-yellow {
+  background: $color-secondary-yellow;
+}
+
+.color-secondary-yellow-dk {
+  background: $color-secondary-yellow-dk;
+}
+
+.color-secondary-yellow-dk-2 {
+  background: $color-secondary-yellow-dk-2;
+}
+
+.color-secondary-yellow-lt {
+  background: $color-secondary-yellow-lt;
+}
+
+.color-secondary-yellow-lt-2 {
+  background: $color-secondary-yellow-lt-2;
+}
+
+.color-secondary-orange {
+  background: $color-secondary-orange;
+}
+
+.color-secondary-orange-dk {
+  background: $color-secondary-orange-dk;
+}
+
+.color-secondary-orange-dk-2 {
+  background: $color-secondary-orange-dk-2;
+}
+
+.color-secondary-orange-lt {
+  background: $color-secondary-orange-lt;
+}
+
+.color-secondary-orange-lt-2 {
+  background: $color-secondary-orange-lt-2;
+}
+
+.container[role=main] {
+  padding-top: 50px;
+}
+
+.sidebar {
+  padding-bottom: 315px;
+}
+
+footer {
+  background: white;
+  padding-top: 20px;
+}

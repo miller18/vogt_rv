@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Vogt RV Centers | <%= yield(:title) %></title>
+  <title><%= full_title(yield(:title)) %></title>
+
+  <!-- Bootstrap -->
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
+  <%= render 'layouts/shim' %>
 
-<%= yield %>
+</head>
+<body role="document">
+
+    <%= render'layouts/header' %>
+
+
+    <div class="container" role="main">
+
+        <%= yield %>
+
+    </div> <!-- /container -->
+
+    <%= render'layouts/footer' %>
 
 </body>
 </html>
